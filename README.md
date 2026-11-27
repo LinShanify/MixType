@@ -28,6 +28,8 @@
 
 可以当作 [UnimeType](https://unimetype.com/) 这类「免切换」输入的离线平替：不靠云端 AI，不联网打字，不收集任何输入内容。
 
+> 🚧 **iPhone 版正在开发中**，Mac 和 iPhone 之间的 **iCloud 词库同步**也在制作中：以后先装哪一台都行，另一台装上就直接用你自己的词库。
+
 ## 为什么用 MixType
 
 | 🔀 免切换 | 🔒 完全离线 | 🧠 越用越顺手 |
@@ -103,6 +105,11 @@ Kubernetes	kubernetes
 
 `!` 表示这串字母一打就排第一；不加的话只进候选，不挤掉常用词。
 
+## 正在做
+
+- **iPhone 版**：开发中，和 Mac 版用同一套输入引擎和词库
+- **iCloud 同步**：制作中。Mac 和 iPhone 通过你自己的 iCloud 共用同一份词库，打开就同步，不用自己导入导出，也不经过 MixType 的任何服务器
+
 ## 系统要求
 
 macOS 12 或更高，Apple 芯片和 Intel 芯片都可以。目前支持简体中文和英文。
@@ -115,4 +122,4 @@ macOS 12 或更高，Apple 芯片和 Intel 芯片都可以。目前支持简体�
 
 <a id="english"></a>
 
-**English** · MixType is a macOS input method for typing Chinese (pinyin) and English together without switching modes. It corrects typos in both languages, keeps English contractions like `don't` intact, and learns your words and picks over time, on your Mac only. Everything runs offline; the only network access is a daily update check against this repository, which can be switched off. macOS 12+, Apple silicon and Intel. [Download the latest release](https://github.com/LinShanify/MixType/releases/latest).
+**English** · MixType is a macOS input method for typing Chinese (pinyin) and English together without switching modes. It corrects typos in both languages, keeps English contractions like `don't` intact, and learns your words and picks over time, on your Mac only. Everything runs offline; the only network access is a daily update check against this repository, which can be switched off. macOS 12+, Apple silicon and Intel. An iPhone version and iCloud sync of your word list between Mac and iPhone are in the works. [Download the latest release](https://github.com/LinShanify/MixType/releases/latest).
